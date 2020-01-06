@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="task 03 01 solved">
+    <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="task 03 02 solved">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
     </list>
@@ -19,18 +19,17 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaRushTasks" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3321316">
+    <splitter split-orientation="horizontal" split-proportion="0.22778529">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0302/Условие.jrtc">
+            <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0304/Условие.jrtc">
               <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
             </entry>
           </file>
@@ -39,15 +38,13 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0302/Solution.java">
+            <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0304/Solution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="406">
-                  <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
                   <folding>
-                    <element signature="e#140#141#0" expanded="true" />
-                    <element signature="e#176#177#0" expanded="true" />
-                    <element signature="e#168#169#0" expanded="true" />
-                    <element signature="e#212#213#0" expanded="true" />
+                    <element signature="e#141#142#0" expanded="true" />
+                    <element signature="e#169#170#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -78,13 +75,15 @@
         <option value="$PROJECT_DIR$/JavaRushPlugin.properties" />
         <option value="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0301/Solution.java" />
         <option value="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0302/Solution.java" />
+        <option value="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0303/Solution.java" />
+        <option value="$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0304/Solution.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1021" />
-    <option name="y" value="532" />
-    <option name="width" value="1937" />
+    <option name="x" value="1020" />
+    <option name="y" value="531" />
+    <option name="width" value="1938" />
     <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -129,6 +128,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="task03" type="462c0819:PsiDirectoryNode" />
               <item name="task0302" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="1.JavaSyntax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task03" type="462c0819:PsiDirectoryNode" />
+              <item name="task0303" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaRushTasks" type="462c0819:PsiDirectoryNode" />
+              <item name="1.JavaSyntax" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="task03" type="462c0819:PsiDirectoryNode" />
+              <item name="task0304" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JavaRushTasks" type="b2602c69:ProjectViewProjectNode" />
@@ -325,7 +340,8 @@
       <workItem from="1485161981498" duration="29000" />
       <workItem from="1485162014696" duration="83000" />
       <workItem from="1485177835943" duration="100000" />
-      <workItem from="1578313045729" duration="2366000" />
+      <workItem from="1578313045729" duration="2476000" />
+      <workItem from="1578324218841" duration="1955000" />
     </task>
     <task id="LOCAL-00001" summary="task 03 01 solved">
       <created>1578314385113</created>
@@ -334,17 +350,24 @@
       <option name="project" value="LOCAL" />
       <updated>1578314385113</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="task 03 02 solved">
+      <created>1578315469686</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578315469686</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3253000" />
+    <option name="totallyTimeSpent" value="5318000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="2575" height="1424" extended-state="6" />
+    <frame x="-7" y="-7" width="2575" height="1424" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.499226" visible="true" weight="0.117693834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.499226" visible="true" weight="0.118489064" />
       <window_info id="Structure" order="1" weight="0.24970178" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" sideWeight="0.50077397" side_tool="true" weight="0.11557985" />
@@ -352,9 +375,6 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Palette&#9;" order="6" />
       <window_info id="Capture Tool" order="7" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32939324" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -365,7 +385,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32939324" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -376,6 +398,7 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Properties" order="9" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,7 +414,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task 03 01 solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 03 01 solved" />
+    <MESSAGE value="task 03 02 solved" />
+    <option name="LAST_COMMIT_MESSAGE" value="task 03 02 solved" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Quest#2/Quest#2.iml" />
@@ -443,8 +467,8 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/Quest.info">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
+      <provider editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0301/Условие.jrtc">
       <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
@@ -463,18 +487,47 @@
     <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0302/Условие.jrtc">
       <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0302/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0303/Условие.jrtc">
+      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Стиль Кода">
       <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0302/Solution.java">
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0303/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="88">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
           <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.Games/src/com/javarush/games/minesweeper/Условие.jrtc">
+      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0304/Условие.jrtc">
+      <provider selected="true" editor-type-id="HomeWorkEditorType_Id" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task03/task0304/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#169#170#0" expanded="true" />
           </folding>
         </state>
       </provider>
