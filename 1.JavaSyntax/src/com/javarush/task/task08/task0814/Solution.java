@@ -1,6 +1,7 @@
 package com.javarush.task.task08.task0814;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 import java.util.Arrays;
 
@@ -15,11 +16,14 @@ public class Solution {
     }
 
     public static Set<Integer> removeAllNumbersGreaterThan10(Set<Integer> set) {
-        for (int value : set){
-            if (value>10){
-                set.remove(value);
-            }
-        }
+
+
+        Iterator<Integer> iterator = set.iterator();
+        Integer a;
+        while (iterator.hasNext())
+        {
+            a = iterator.next();
+            if (a.compareTo(10)>0) iterator.remove();}
         return set;
 
     }
@@ -27,9 +31,9 @@ public class Solution {
     public static void main(String[] args) {
         Set <Integer> set = createSet();
         set = removeAllNumbersGreaterThan10(set);
-        for (int value : set){
-            System.out.println(value);
-            }
+//        for (int value : set){
+//            System.out.println(value);
+//            }
         }
     
 }
