@@ -1,0 +1,54 @@
+package com.javarush.task.task18.task1823;
+
+import java.io.*;
+import java.util.*;
+
+/* 
+Нити и байты
+*/
+
+public class Solution {
+    public static Map<String, Integer> resultMap = new HashMap<String, Integer>();
+
+    public static void main(String[] args) throws IOException, InterruptedException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        List <ReadThread> threadsList = new ArrayList<>();
+        String path;
+        List <String> pathsList = new ArrayList<>();
+        while (!(path = reader.readLine()).equals("exit")){
+            pathsList.add(path);
+        }
+        reader.close();
+        for (String everyPath: pathsList) {
+            ReadThread readThread = new ReadThread(everyPath);
+            threadsList.add(readThread);
+            readThread.start();
+            readThread.isDaemon();
+        }
+        for (ReadThread everyReadThread: threadsList) {
+            everyReadThread.join();
+        }
+        for (Map.Entry entry: resultMap.entrySet()){
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+    }
+
+    public static class ReadThread extends Thread {
+        public ReadThread(String fileName) throws IOException {
+            this.fileName = fileName;
+            FileInputStream inputStream = new FileInputStream(fileName);
+            while (inputStream.available() > 0) list.add(inputStream.read());
+            inputStream.close();
+        }
+
+        private String fileName = null;
+        ArrayList<Integer> list = new ArrayList<>();
+
+        @Override
+        public void run() {
+            int element = list.get(0);
+            for (Integer x : list) if (Collections.frequency(list, x) > Collections.frequency(list, element)) element = x;
+            resultMap.put(fileName, element);
+        }
+    }
+}

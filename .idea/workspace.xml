@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a9c2848-0864-419d-ba1c-a0669c6ee00f" name="Default" comment="task 0304 solved">
-      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1631/ImageReaderFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1631/common/BmpReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1631/common/JpgReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task16/task1631/common/PngReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1828/VictorSamosvat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f/Lion.txt.part1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f/Lion.txt.part2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f/Lion.txt.part3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f/crudId.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f/englishText.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/f/oddIn.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaRushPlugin.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JavaRushPlugin.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/a.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/in.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files/in.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/a.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/f/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/outtxt" beforeDir="false" afterPath="$PROJECT_DIR$/f/outtxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2.JavaCore/META-INF/2.JavaCore.kotlin_module" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +73,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -87,20 +95,34 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solutioncrud2">
+  <component name="RunManager" selected="Application.Solution">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bankomat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1720.Bankomat" />
+    <configuration name="Solution (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1912.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task17.task1720.*" />
+          <option name="PATTERN" value="com.javarush.task.task19.task1912.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1910.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task19.task1910.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +131,26 @@
       </method>
     </configuration>
     <configuration name="Solution (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1718.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1913.Solution" />
       <module name="2.JavaCore" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task17.task1718.*" />
+          <option name="PATTERN" value="com.javarush.task.task19.task1913.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1914.Solution" />
+      <module name="2.JavaCore" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javarush.task.task19.task1914.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,40 +159,12 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1722.Solution" />
+      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task19.task1915.Solution" />
       <module name="2.JavaCore" />
-      <option name="PROGRAM_PARAMETERS" value="-c Миронов м 15/04/1990" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.javarush.task.task17.task1722.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution21231" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1710.Solution" />
-      <module name="2.JavaCore" />
-      <option name="PROGRAM_PARAMETERS" value="-i 1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task17.task1710.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solutioncrud2" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.javarush.task.task17.task1711.Solution" />
-      <module name="2.JavaCore" />
-      <option name="PROGRAM_PARAMETERS" value="-i 0 1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.javarush.task.task17.task1711.*" />
+          <option name="PATTERN" value="com.javarush.task.task19.task1915.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,18 +285,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Bankomat" />
+      <item itemvalue="Application.Solution (2)" />
+      <item itemvalue="Application.Solution (3)" />
       <item itemvalue="Application.Solution (4)" />
-      <item itemvalue="Application.Solution21231" />
-      <item itemvalue="Application.Solutioncrud2" />
+      <item itemvalue="Application.Solution (5)" />
+      <item itemvalue="Application.Solution" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Solutioncrud2" />
-        <item itemvalue="Application.Solution21231" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.Bankomat" />
+        <item itemvalue="Application.Solution (5)" />
         <item itemvalue="Application.Solution (4)" />
+        <item itemvalue="Application.Solution (3)" />
+        <item itemvalue="Application.Solution (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -369,6 +378,49 @@
       <workItem from="1584964082371" duration="13382000" />
       <workItem from="1584996912159" duration="5531000" />
       <workItem from="1585048429949" duration="10004000" />
+      <workItem from="1585831863589" duration="252000" />
+      <workItem from="1585832134749" duration="3844000" />
+      <workItem from="1585845686074" duration="857000" />
+      <workItem from="1585915115223" duration="1478000" />
+      <workItem from="1585916934773" duration="8094000" />
+      <workItem from="1585988204695" duration="10666000" />
+      <workItem from="1586067780005" duration="599000" />
+      <workItem from="1586192569140" duration="31000" />
+      <workItem from="1586192662631" duration="15439000" />
+      <workItem from="1586256710950" duration="6197000" />
+      <workItem from="1586334647061" duration="17251000" />
+      <workItem from="1586369804237" duration="1200000" />
+      <workItem from="1586423085008" duration="3576000" />
+      <workItem from="1586453844844" duration="3018000" />
+      <workItem from="1586545236734" duration="4856000" />
+      <workItem from="1586550207393" duration="255000" />
+      <workItem from="1586550574700" duration="1021000" />
+      <workItem from="1586777816027" duration="16397000" />
+      <workItem from="1586889263809" duration="5967000" />
+      <workItem from="1586902426468" duration="599000" />
+      <workItem from="1587066224047" duration="1965000" />
+      <workItem from="1587542417892" duration="884000" />
+      <workItem from="1588237751204" duration="1827000" />
+      <workItem from="1588934360148" duration="158000" />
+      <workItem from="1589122792352" duration="6231000" />
+      <workItem from="1589206090489" duration="649000" />
+      <workItem from="1589207848119" duration="240000" />
+      <workItem from="1589296839019" duration="6601000" />
+      <workItem from="1589366365042" duration="277000" />
+      <workItem from="1589368701069" duration="1649000" />
+      <workItem from="1589382610551" duration="931000" />
+      <workItem from="1589395266014" duration="10958000" />
+      <workItem from="1589411140003" duration="2231000" />
+      <workItem from="1589571419336" duration="7245000" />
+      <workItem from="1589660696694" duration="599000" />
+      <workItem from="1589812163145" duration="599000" />
+      <workItem from="1589813320072" duration="15446000" />
+      <workItem from="1589977114322" duration="599000" />
+      <workItem from="1590006270284" duration="618000" />
+      <workItem from="1591200548137" duration="1280000" />
+      <workItem from="1593011882524" duration="9416000" />
+      <workItem from="1593506100990" duration="2433000" />
+      <workItem from="1593693422275" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="task 03 01 solved">
       <created>1578314385113</created>
@@ -711,6 +763,96 @@
           <line>66</line>
           <option name="timeStamp" value="96" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1807/Solution.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1807/Solution.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1809/Solution.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1817/Solution.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task18/task1821/Solution.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1903/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="110" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1908/Solution.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1914/Solution.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2.JavaCore/src/com/javarush/task/task19/task1914/Solution.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>file://$PROJECT_DIR$/1.JavaSyntax/src/com/javarush/task/task10/task1013/Solution.java</url>
           <line>18</line>
@@ -759,9 +901,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="bufferedReader.cb" />
+        <watch expression="bufferedReader.cb" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
