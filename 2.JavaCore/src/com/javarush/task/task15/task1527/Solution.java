@@ -22,27 +22,19 @@ public class Solution {
                 String [] parameterArray = parametersStr.split("\\&");
                 for (int i = 0; i < parameterArray.length; i++){
                     String oneParameter = parameterArray[i];
-
                     String parameterKey = oneParameter.split("\\=")[0];
                     System.out.print(parameterKey + " ");
                     if(parameterKey.equals("obj")){
                         objValue = oneParameter.split("\\=")[1];
-
-
                     }
                 }
                 System.out.println();
                 try {
                     Double doubleValue = Double.parseDouble(objValue);
                     alert(doubleValue);
-
                 } catch (NumberFormatException e){
                     alert(objValue);
                 }
-
-
-            } {
-
             }
         } catch (Exception e) {
             e.printStackTrace();
